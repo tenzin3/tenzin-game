@@ -2,6 +2,12 @@
 
 A four-chapter rooftop platformer about Tenzin, a young monk running, climbing and leaping across a Himalayan monastery. Each chapter opens with a cinematic, then you take control of Tenzin.
 
+## ▶ Play now
+
+**https://tenzin3.github.io/tenzin-game/**
+
+The game runs right in your browser, on a computer or a phone. Nothing to download or install.
+
 ## Animation credit
 
 All cinematics, the trailer and the still images in this game (title screen, Tenzin's portrait, chapter cards) come from animations by **Arkizen Studio**: https://www.instagram.com/arkizen.studio/
@@ -10,7 +16,7 @@ The playable Tenzin, the monkey, Gen-la and the levels are drawn in code to matc
 
 ## How to play
 
-Open `index.html` in a web browser (Chrome, Safari, Edge or Firefox). No installation is needed. An internet connection is only used to load the fonts.
+Play online at the link above, or download this repository and open `index.html` in a web browser (Chrome, Safari, Edge or Firefox) to play offline.
 
 | Action | Keys |
 |---|---|
@@ -42,6 +48,6 @@ Butter lamps are optional collectibles in every chapter. Prayer wheels are check
 - `assets/title.jpg`, `portrait.jpg`, `card1.jpg` to `card4.jpg`: stills taken from the animations (Arkizen Studio).
 - `source-animations/`: the original full-quality animations by Arkizen Studio (`morning-gong.mp4`, `monkey-thief.mp4`, `pages-on-the-wind.mp4`, `the-leap.mp4`, `trailer.mp4`). The game itself uses the smaller copies in `assets/`.
 
-## Play it online
+## Publishing
 
-Because `index.html` is at the top of this repository, it can be published with GitHub Pages: in the repository's **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`.
+The game is hosted with GitHub Pages from the `main` branch, root folder (**Settings → Pages**). Anything pushed to `main` goes live at the link above within a minute or two.
