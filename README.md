@@ -2,7 +2,7 @@
 
 An endless runner starring Tenzin, a young monk, running along a stone path above the clouds. Change lanes to dodge woodpiles, jump the low beams, and collect butter lamps while the speed keeps rising.
 
-**Status: v2, work in progress.** The previous game, *Tenzin Ascent* (a four-chapter platformer), is kept in the [v1.0 release](https://github.com/tenzin3/tenzin-game/releases/tag/v1.0).
+**Status: v2, work in progress.** The previous game, *Tenzin Ascent* (a four-chapter platformer), is kept in the [v1.0 release](https://github.com/tenzin3/tenzin-game/releases/tag/v1.0-first_playable_version).
 
 ## ▶ Play now
 
