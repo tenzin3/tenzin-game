@@ -1,16 +1,16 @@
 """Step 4: put the sprite sheet inside the game page.
 
-The sheet is stored in games/runner/index.html as a data URI (in the
+The sheet is stored in index.html as a data URI (in the
 <script id="sheetData"> tag) so the game also works when opened straight from
 disk, where browsers block WebGL from loading image files.
 
-    python3 tools/run-loop/embed.py --sheet build/run_sheet.webp --html games/runner/index.html
+    python3 tools/run-loop/embed.py --sheet build/run_sheet.webp --html index.html
 """
 import argparse, base64, re
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--sheet', default='build/run_sheet.webp')
-ap.add_argument('--html', default='games/runner/index.html')
+ap.add_argument('--html', default='index.html')
 args = ap.parse_args()
 
 uri = 'data:image/webp;base64,' + base64.b64encode(open(args.sheet, 'rb').read()).decode()

@@ -20,7 +20,7 @@ python3 tools/run-loop/normalize.py
 # 3. Pack one stride (frames 34-62) into an 8x4 sprite sheet
 python3 tools/run-loop/build_sheet.py
 
-# 4. Put the sheet inside the game page
+# 4. Put the sheet inside the game page (index.html)
 python3 tools/run-loop/embed.py
 ```
 
@@ -29,4 +29,4 @@ python3 tools/run-loop/embed.py
 | `segment.py` | Runs the person-segmentation model and saves transparent PNG crops plus their positions in the frame (`boxes.txt`). |
 | `normalize.py` | Keeps only Tenzin, trims rope strands, scales by a smoothed body height so he doesn't pulse with each stride, and anchors head and torso. Frames 47 and 48 are replaced by their neighbours because of rope blur next to his head. |
 | `build_sheet.py` | Packs frames 34–62 into `build/run_sheet.webp`. Frame 63 matches 34, so the loop has no seam. |
-| `embed.py` | Writes the sheet into `games/runner/index.html` as a data URI, so the game also works when opened from disk. |
+| `embed.py` | Writes the sheet into `index.html` as a data URI, so the game also works when opened from disk. |
